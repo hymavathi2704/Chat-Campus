@@ -1,3 +1,7 @@
+
+
+
+
 # SIH (2024) Project : CHAT CAMPUS
 
 Problem Statement : AI-Powered Student Assistance Chatbot for Department of Technical Education !
@@ -45,13 +49,18 @@ This project uses the Google Gemini API. To use your own API key, replace the ex
 
 ```.env_sample
 API_KEY = "YOUR_API_KEY_HERE"; 
+ ```
+
 
 
 
 ## Tech Stack
 
-**Front End** : Html , Css , Js , Bootstrap , Scss
+**Client:** HTML,CSS,JS
+
+**Server:** - 
+
 
 ## Authors
 
-- [Hymavathi](https://github.com/hymavathi2704) 
+- Hymavathi
