@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat Campus</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="Chatbot/images/logo.png" rel="icon">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Header Greetings -->
+        <h1 class="title">Welcome to Chat Campus</h1>
+        <p class="subtitle">How can I help you today?</p>
+
+        <!-- Suggestion list -->
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Give me list of Best Engineering Colleges In India ?</h4>
+                <span class="icon material-symbols-rounded">draw</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Which colleges offer scholarships ?</h4>
+                <span class="icon material-symbols-rounded">lightbulb</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Do any colleges offer internship opportunities ?</h4>
+                <span class="icon material-symbols-rounded">explore</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Which colleges provide career counseling services ?</h4>
+                <span class="icon material-symbols-rounded">code</span>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Chat List / Container -->
+    <div class="chat-list"></div>
+
+    <!-- Typing Area -->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
+                <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+            </div>
+            <div class="action-buttons">
+                <span id="theme-toggle-button" class="icon material-symbols-rounded">dark_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+        <p class="disclaimer-text">I'm your Chat Campus , here to help you explore and compare colleges, courses,and more !</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
