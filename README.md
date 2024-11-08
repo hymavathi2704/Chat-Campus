@@ -6,7 +6,7 @@
 
 Problem Statement : AI-Powered Student Assistance Chatbot for Department of Technical Education !
 
-<a href="https://swapan-code.github.io/Gemini-Chatbot-Frontend-Project/" target="_blank">Live Link</a>
+<a href="https://chat-campus.vercel.app/" target="_blank">Live Link</a>
 <br>
 <br>
 
